@@ -1,355 +1,185 @@
 
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="en-gb">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<head>
+    <title>Houdini for iOS</title>
+    <meta property="og:title" content="Houdini for iOS">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="iOS 10.x">
+    <meta property="og:description" content="for iOS 10.x">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ 
 
-<!-- OPT Demos Google Analytics -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-84539466-2', 'auto');
-    ga('send', 'pageview');
-</script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  </head>
+  <style>
+
+    body {
+      background: linear-gradient(0deg, rgb(18,77, 82), rgb(10, 42, 72));
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      padding-top: 100px !important;
+      max-width: 980px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      text-align: center !important;
+      display: none;
+    }
+
+    .credits-top {
+      font-size: 0.80em;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+    .download-btn {
+
+      color: white;
+      text-decoration:none;
+      background: #1896c65c;
+      box-shadow: 0px 0px 25px #1896c65c;
+      
+      padding-top: 13px !important;
+      padding-right: 40px !important;
+      padding-left: 40px !important;
+      padding-bottom: 13px !important;
+      
+      border-radius: 100px;
+      font-weight: bold;
+
+    }
+
+    .credits-bottom {
+      font-size: 0.9em;
+      padding-top: 100px !important;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .installation {
+      display: inline-block;
+      padding: 30px;
+      padding-left: 50px;
+      padding-top: 5px !important;
+      text-align: left;
+      opacity: 0.9;
+      font-size: 0.9em;
+    }
+
+
+    .dotted-list {
+      display: inline-block;
+      padding: 30px;
+      padding-left: 50px;
+      padding-top: 5px !important;
+      text-align: left;
+      opacity: 0.9;
+      list-style-type: circle;
+      font-size: 0.8em;
+    }
+
+    .warning-message {
+      font-size: 0.7em;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .twitter-link {
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: underline;
+    }
     
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nova Theme</title>
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="Nova theme" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+    .donation-info {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      font-size: 0.70em;
+    }
+    .disclaimer {
+      opacity: 0.6;
+      padding-top: 20px;
+      font-size: 0.9em;
+    }
+  </style>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="assets/css/responsive.css"/>
+  <body>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <img width='75px' src="https://imgur.com/7XHtuBd.png">
+    <a href="https://goo.gl/dGdbV8" style="text-decoration: none; color: white; font-weight: light;"><h1>Houdini</h1></a>
 
-</head>
-
-<body>
-
-<!-- Navigation
-    ================================================== -->
-<div class="hero-background">
-    <div>
-        <img class="strips" src="assets/images/strips.png">
+    <p class="credits-top">for 10.x to 10.3.2 and iOS 11 to 11.1.2 by Abraham Masri <a class="twitter-link" href="https://twitter.com/cheesecakeufo">@cheesecakeufo</a></p>
+    
+         
+    <div style="padding-top: 100px;"> 
+      <a class="download-btn" href="https://goo.gl/A8x2YJ" rel="nofollow">download beta 2r1</a>
     </div>
-    <div class="container">
-        <div class="header-container header">
-            <a class="navbar-brand logo" href="#"> <img class="logo" src="assets/images/logo.svg"/> </a>
-            <a href="#email-form">
-                <button class="header-btn"> Download FREE!</button>
-            </a>
-            <div class="header-right">
-                <a class="navbar-item" href="#team">The Team</a>
-                <a class="navbar-item" href="#pricing">Pricing</a>
-                <a class="navbar-item" href="#features">Features</a>
-            </div>
-        </div>
-        <!--navigation-->
+    
+    <p class="disclaimer">note: this is not meant to be a jailbreak replacement <br>nor is this a full jailbreak. it will never be.<br>although it is safe to use,<br>I am not responsible for any mess up</p>
+    <p class="disclaimer">also, some features might not work in beta</p>
+
+    <p class="credits-bottom">thanks to Ian Beer</p>
+    
+    
+    <h2 style="padding-top: 50px; opacity: 0.9">What's new (b2r1)?</h2>
+    <ol class="installation">
+      <li>Fixes big boot logos (iOS 11)</li>
+    </ol>
+
+    <h2 style="padding-top: 50px; opacity: 0.9">What's new (b2)?</h2>
+    <ol class="installation">
+      <li>iOS 11 support</li>
+      <li>Faster startup time </li>
+      <li>Change Icon shapes (iOS 11) </li>
+      <li>System-wide ads Blocker (iOS 11) </li>
+      <li>Change Emoji fonts (iOS 11)</li>
+      <li>Change boot logo (iOS 11)</li>
+      <li>Add your face to Animoji (iOS 11) (X only)</li>
+      <li>Themes temporarily disabled (iOS 11)</li>
+      <li>Added safety measurements</li>
+    </ol>
+
+    
+    <h2 style="padding-top: 50px; opacity: 0.9">Supported Devices</h2>
+    <p>Any 64-bit device running<br>iOS 10.x (except 10.3.3)
+    <br>and iOS 11 (up to 11.1.2)
+
+    <h2 style="padding-top: 50px; opacity: 0.9">Installation</h2>
+    <ol class="installation">
+      <li>Download the .ipa file and <strong><a style="color: #fff; text-decoration: underline;" href="http://www.cydiaimpactor.com/">Cydia Impactor</a></strong></li>
+      <li>Open Cydia Impactor and connect your device </li>
+      <li>Drag the Houdini.ipa file onto the Cydia Impactor window </li>
+      <li>Enter your Apple ID (email and password) </li>
+      <li>Open Settings → General → Profiles & Device Management </li>
+      <li>Trust the new certificate → open Houdini</li>
+      <li>Tap 'start' and enjoy!</li>
+    </ol>
+
+    <p class="warning-message">note: it might fail multiple times. if 'escaping sandbox' takes longer than 5 minutes, <br>reboot and try again</p>
+    <br>
 
 
-        <!-- Hero-Section
-          ================================================== -->
-
-        <div class="hero row">
-            <div class="hero-right col-sm-6 col-sm-6">
-                <h1 class="header-headline bold"> Beautiful Free Nova template <br></h1>
-                <h4 class="header-running-text light"> A top notch premium quality template for your next
-                    web project.</h4>
-                <a href="#email-form">
-                    <button class="hero-btn"> Download FREE!</button>
-                </a>
-            </div><!--hero-left-->
-
-            <div class="col-sm-6 col-sm-6 ipad">
-                <img class="ipad-screen img-responsive" src="assets/images/screen.png"/>
-            </div>
-
-            <div><img class="mouse" src="assets/images/mouse.svg"/></div>
-
-        </div><!--hero-->
-
-    </div> <!--hero-container-->
-
-</div><!--hero-background-->
-
-
-<!-- Features
-  ================================================== -->
-
-<div id="features" class="features-section">
-
-    <div class="features-container row">
-
-        <h2 class="features-headline light">FEATURES</h2>
-
-        <div class="col-sm-4 feature">
-
-            <div class="feature-icon feature-no-display">
-                <img class="feature-img" src="assets/images/responsive.svg">
-            </div>
-            <h5 class="feature-head-text feature-no-display"> FULLY RESPONSIVE </h5>
-            <p class="feature-subtext light feature-no-display"> Looks amazing on any
-                device: smartphone, tablet, laptop and desktop.</p>
-        </div>
-
-        <div class="col-sm-4 feature">
-            <div class="feature-icon feature-no-display feature-display-mid">
-                <img class="feature-img" src="assets/images/customizable.svg">
-            </div>
-            <h5 class="feature-head-text feature-no-display feature-display-mid"> CUSTOMIZABLE </h5>
-            <p class="feature-subtext light feature-no-display feature-display-mid"> Change the colors, pictures or any
-                of the sections
-                to suit your needs.</p>
-        </div>
-
-        <div class="col-sm-4 feature">
-            <div class="feature-icon feature-no-display feature-display-last">
-                <img class="bullet-img" src="assets/images/design.svg">
-            </div>
-            <h5 class="feature-head-text feature-no-display feature-display-last"> SLICK AND BEAUTIFUL DESIGN </h5>
-            <p class="feature-subtext light feature-no-display feature-display-last"> Trendy and fresh design, fits any
-                website.</p>
-        </div>
-    </div> <!--features-container-->
-</div> <!--features-section-->
-
-<!-- Logos
-  ================================================== -->
-
-<div class="logos-section">
-    <img class="logos" src="assets/images/logos.png"/>
-</div><!--logos-section-->
-
-<!-- White-Section
-  ================================================== -->
-
-<div class="white-section row">
-
-    <div class="imac col-sm-6">
-        <img class="imac-screen img-responsive" src="assets/images/imac.png">
-    </div>
-    <!--imac-->
-
-    <div class="col-sm-6">
-
-        <div class="white-section-text">
-
-            <h2 class="imac-section-header light">SIMPLE AND BEAUTIFUL</h2>
-
-            <div class="imac-section-desc">
-
-            <span>  Use Nova theme for your next web project.
-                It is completely customizable so you can change any of the sections to fit your needs.
-                Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</span>
-            </div>
-        </div>
-    </div>
-</div><!--white-section-text-section--->
-
-
-<!-- Pricing
-  ================================================== -->
-<div id="pricing" class="pricing-background">
-
-    <h2 class="pricing-section-header light text-center">CHOOSE YOUR PRICING PLAN</h2>
-    <h4 class=" pricing-section-sub text-center light">Pick any of our super affordable pricing plans</h4>
-
-    <div class="pricing-table row">
-        <div class="col-sm-4">
-            <div class="plan">
-                <h3 class="plan-title light">BASIC</h3>
-                <h4 class="plan-cost bold">15</h4>
-                <h5 class="monthly">per month</h5>
-                <ul class="plan-features">
-                    <li>Up to 7 Projects</li>
-                    <li>2 Additional Developers</li>
-                </ul>
-                <div class="plan-price-div text-center">
-                    <div class="choose-plan-div">
-                        <a class="plan-btn light" href="#">
-                            Get Started
-                        </a>
-                    </div>
-                </div>
-            </div><!--basic-plan--->
-        </div><!--col-->
-
-        <div class="col-sm-4">
-            <div class="mid-plan">
-                <h3 class="plan-title light">AGENCY</h3>
-                <h4 class="plan-cost bold">55</h4>
-                <h5 class="monthly">per month</h5>
-                <ul class="plan-features">
-                    <li>Up to 25 Projects</li>
-                    <li>2 Additional Developers</li>
-                    <li>Unlimited Support</li>
-                </ul>
-                <div class="plan-price-div text-center">
-                    <div class="choose-plan-div">
-                        <a class="plan-btn light" href="#">
-                            Get Started
-                        </a>
-                    </div>
-                </div>
-            </div><!--pro-plan--->
-        </div><!--col-->
-
-        <div class="col-sm-4">
-            <div class="plan">
-                <h3 class="plan-title light">PRO</h3>
-                <h4 class="plan-cost bold">75</h4>
-                <h5 class="monthly">per month</h5>
-                <ul class="plan-features">
-                    <li>Up to 25 Projects</li>
-                    <li>2 Additional Developers</li>
-                    <li>Unlimited Support</li>
-                    <li>1.5GB Disk Space</li>
-                </ul>
-                <div class="plan-price-div text-center">
-                    <div class="choose-plan-div">
-                        <a class="plan-btn light" href="#">
-                            Get Started
-                        </a>
-                    </div>
-                </div>
-            </div><!--pro-plan--->
-        </div><!--col-->
-
-    </div>  <!--pricing-table-->
-
-</div><!--pricing-background-->
-
-<!-- Team
-  ================================================== -->
-
-<div id="team" class="team">
-    <h2 class="team-section-header light text-center">THE TEAM</h2>
-
-    <div class="team-container row">
-
-
-        <div class="col-sm-4 team-member">
-            <img src="assets/images/cto.png">
-            <div class="team-member-text">
-                <h4 class="team-member-position light">CTO</h4>
-                <h5 class="bold">Johnny B Good</h5>
-                <p class="light">The brains behind the whole operation</p>
-                <a href="http://www.twitter.com"><img class="team-social-icon" src="assets/images/team-twitter.svg"></a>
-                <a href="http://www.facebook.com"><img class="team-social-icon"
-                                                       src="assets/images/team-facebook.svg"></a>
-                <a href="https://plus.google.com/"><img class="team-social-icon"
-                                                        src="assets/images/team-google.svg"></a>
-            </div>
-        </div>
-
-        <div class="col-sm-4 team-member">
-            <img src="assets/images/ceo.png">
-            <div class="team-member-text">
-                <h4 class="team-member-position light">CEO</h4>
-                <h5 class="bold">Roll Over Beethoven</h5>
-                <p class="light">The one that puts it all together </p>
-                <a href="http://www.twitter.com"><img class="team-social-icon" src="assets/images/team-twitter.svg"></a>
-                <a href="http://www.facebook.com"><img class="team-social-icon"
-                                                       src="assets/images/team-facebook.svg"></a>
-                <a href="https://plus.google.com/"><img class="team-social-icon"
-                                                        src="assets/images/team-google.svg"></a>
-            </div>
-        </div>
-
-        <div class="col-sm-4 team-member">
-            <img src="assets/images/cfo.png">
-            <div class="team-member-text">
-                <h4 class="team-member-position light">CFO</h4>
-                <h5 class="bold">Chuck Berry</h5>
-                <p class="light">The guy with his hand on the wallet</p>
-                <a href="http://www.twitter.com"><img class="team-social-icon" src="assets/images/team-twitter.svg"></a>
-                <a href="http://www.facebook.com"><img class="team-social-icon"
-                                                       src="assets/images/team-facebook.svg"></a>
-                <a href="https://plus.google.com/"><img class="team-social-icon"
-                                                        src="assets/images/team-google.svg"></a>
-            </div>
-
-        </div>
-        <! -- .row -->
-
-    </div> <!--team-container--->
-
-</div> <!--team-section--->
-
-<!-- Email-Section
-  ================================================== -->
-
-<div class="blue-section">
-    <h3 class="blue-section-header bold"> Download FREE!</h3>
-    <h4 class="blue-section-subtext light">Take it for a ride for any of your projects!</h4>
-
-    <div class="email-form-div">
-        <form id="email-form" class="form-group email-form" action="mailchimp.php" method="post">
-            <input type="email" class="form-control email-input" name="email" id="newsletter-email-input"
-                   placeholder="Enter your email">
-            <button type="submit" class="btn submit-btn">Download</button>
-            <div id="newsletter-spinner">
-                <i class="fa fa-cog fa-spin" style="font-size:24px"></i>
-            </div>
-        </form>
-    </div>
-    <!--email-form-div-->
-
-    <div id="newsletter-loading-div"></div>
-    <!--email-form-->
-</div>
-<!--blue-section-->
-
-<!-- Footer
-  ================================================== -->
-
-<div class="footer">
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-sm-2"></div>
-
-            <div class="col-sm-8 webscope">
-                <span class="webscope-text"> A free template by </span>
-                <a href="https://webscopeapp.com"> <img src="assets/images/webscope.svg"/> </a>
-            </div>
-            <!--webscope-->
-
-            <div class="col-sm-2">
-                <div class="social-links">
-                    <a href="https://twitter.com/webscopeapp"> <img class="social-link"
-                                                                    src="assets/images/twitter.svg"/> </a>
-                    <a href="https://www.facebook.com/webscopeapp/?ref=aymt_homepage_panel"> <img
-                            src="assets/images/facebook.svg"/> </a>
-                </div>
-                <!--social-links-->
-            </div>
-            <!--social-links-parent-->
-
-        </div>
-        <!--row-->
-
-    </div>
-    <!--container-->
-</div>
-<!--footer-->
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-
-<script src="assets/js/script.js"></script>
-
+  <h3 style="padding-top: 20px; opacity: 0.9">Donations</h3>
+    <p class="donation-info">Donations are by no means necessary but if you really want to: </p>
+    <a class="donation-info" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DEDRJ8TF6CWG8&lc=US&item_name=Houdini&currency_code=USD&bn=PP-DonationsBF%3Abtn_donateCC_LG%2Egif%3ANonHosted" style="text-decoration: underline;">Donate via Paypal</a>
+    <p class="donation-info">or Bitcoin: 13nW4eanXStWak8hLrqtZYc1sq7X6A6dFx</p>
+  <p class="donation-info">thank you <3 </p> 
+  
 </body>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('body').fadeIn('slow');
+    
+ 
+});
+</script>
 
 </html>
