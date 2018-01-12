@@ -19,18 +19,28 @@
   <style>
 
     body {
-      background: linear-gradient(0deg, rgb(38,77, 82), rgb(10, 42, 72));
-      color: white;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      padding-top: 100px !important;
-      max-width: 980px;
-      margin-right: auto;
-      margin-left: auto;
-      display: block;
-      text-align: center !important;
-      display: none;
-    }
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+    height: 55px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient( indigo, violet); /* Standard syntax (must be last) */
+}
+</style>
+</head>
+<body>
+
+<div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+Gradient Background
+</div>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support gradients.</p>
+
+</body>
+</html>
+
 
     
-</html>
+
