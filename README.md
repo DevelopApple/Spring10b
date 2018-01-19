@@ -1,28 +1,68 @@
-# testwe
+a work-in-progress jailbreak for iOS 10.3.x
+
+*For 64-bit devices prior to the iPhone 7 (A7 - A9)*
+
+Made from off the shelf parts and shared research, long live the jailbreak community!
 
 
 
 
-   if(!strcmp(device, "iPhone9,4"))
-    {
-        // 10.3.1
-        if(!strcmp(osversion, "14E304"))
-        {
-            OFFSET_ZONE_MAP                        = 0xfffffff007558478;
-            OFFSET_KERNEL_MAP                      = 0xfffffff0075b4050;
-            OFFSET_KERNEL_TASK                     = 0xfffffff0075b4048;
-            OFFSET_REALHOST                        = 0xfffffff00753aba0;
-            OFFSET_BZERO                           = 0xfffffff00708df80;
-            OFFSET_BCOPY                           = 0xfffffff00708ddc0;
-            OFFSET_COPYIN                          = 0xfffffff00718d028;
-            OFFSET_COPYOUT                         = 0xfffffff00718d21c;
-            
-            OFFSET_IPC_PORT_ALLOC_SPECIAL          = 0xfffffff0070a60b4;
-            OFFSET_IPC_KOBJECT_SET                 = 0xfffffff0070b938c;
-            OFFSET_IPC_PORT_MAKE_SEND              = 0xfffffff0070a5bd8;
-            OFFSET_IOSURFACEROOTUSERCLIENT_VTAB    = 0xfffffff006eee1b8;
-            OFFSET_ROP_ADD_X0_X0_0x10              = 0xfffffff0064b2174;
-            
-            OFFSET_ROOT_MOUNT_V_NODE               = 0xfffffff0075b40b0;
-        }
-       
+
+
+## notes
+
+Spawns a dropbear SSH server listening on port 2222. Remember to change your passwords!
+
+| user   | password |
+| ---    | ---      |
+| root   | alpine   |
+| mobile | alpine   |
+
+
+## issues that are being worked on
+
+- Touch ID does not work in App Store apps while in jailbroken mode
+- support for all compatible device/OS combinations
+- Cydia icon is hidden (show hidden apps plist fail)
+- Respring button is panicky (you don't have to click it)
+- internal mechanics
+- refactoring
+
+
+## developer notes
+
+- system daemons are not being reloaded en masse after jailbreaking
+
+
+
+
+
+## supported devices (working?)
+
+| iOS     | iPod 6G | iPhone 5S | 6   | 6+  | SE  | 6S  | 6S+ |
+| ---     | ---     | ---       | --- | --- | --- | --- | --- |
+| 10.3    |         |           | y   |     | y   |     |     |
+| 10.3.1  | y       | y         | y   | y   | y   | y   | y   |
+| 10.3.2  |         | y         | y   | y   |     | y   | y   |
+| 10.3.3  |         | y         | y   | y   | y   | y   | y   |
+
+
+| iOS     | iPad Air | Air 2 | 5G (2017) | Pro 9.7" | Pro 12.9" | Mini 2 | Mini 3 | Mini 4 |
+| ---     | ---      | ---   | ---       | ---      | ---       | ---    | ---    | ---    |
+| 10.3    |          |       | y         |          |           |        |        |        |
+| 10.3.1  |          |       |           |          |           | y      | y      |        |
+| 10.3.2  |          |       |           |          |           |        |        |        |
+| 10.3.3  |          | y     |           |          |           |        |        |        |
+
+
+
+
+
+&nbsp;
+
+
+&nbsp;
+
+
+
+<p align="center"> </p>
