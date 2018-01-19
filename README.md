@@ -19,24 +19,6 @@ Spawns a dropbear SSH server listening on port 2222. Remember to change your pas
 | mobile | alpine   |
 
 
-## issues that are being worked on
-
-- Touch ID does not work in App Store apps while in jailbroken mode
-- support for all compatible device/OS combinations
-- Cydia icon is hidden (show hidden apps plist fail)
-- Respring button is panicky (you don't have to click it)
-- internal mechanics
-- refactoring
-
-
-## developer notes
-
-- system daemons are not being reloaded en masse after jailbreaking
-
-
-
-
-
 ## supported devices (working?)
 
 | iOS     | iPod 6G | iPhone 5S | 6   | 6+  | SE  | 6S  | 6S+ |
