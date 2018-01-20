@@ -37,10 +37,13 @@ SSH server on port 2222. Remember to change your passwords!
 | 10.3.2  |          |       |           |          |           |        |        |        |
 | 10.3.3  |          | y     |           |          |           |        |        |        |
 
-## 
+## Thank to:
+siguza (v0rtex) for kernel exploit
+qwertyoruiop (yalu102) for kpp bypass 
+xerub for patchfinder
+Sticktron (g0blin)
 
-
-
+##
 
 &nbsp;
 
