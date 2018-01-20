@@ -1,8 +1,8 @@
-a work-in-progress jailbreak for iOS 10.3.x
+Spring10 jailbreak for iOS 10.3.x
 
-*For 64-bit devices prior to the iPhone 7 (A7 - A9)*
+For 64-bit devices prior to the iPhone 7 (A7 - A9)
 
-Made from off the shelf parts and shared research, long live the jailbreak community!
+Made from off the shelf parts and shared research the jailbreak community!
 
 
 
@@ -28,6 +28,7 @@ Spawns a dropbear SSH server listening on port 2222. Remember to change your pas
 | 10.3.2  |         | y         | y   | y   |     | y   | y   |
 | 10.3.3  |         | y         | y   | y   | y   | y   | y   |
 
+##  
 
 | iOS     | iPad Air | Air 2 | 5G (2017) | Pro 9.7" | Pro 12.9" | Mini 2 | Mini 3 | Mini 4 |
 | ---     | ---      | ---   | ---       | ---      | ---       | ---    | ---    | ---    |
@@ -36,6 +37,7 @@ Spawns a dropbear SSH server listening on port 2222. Remember to change your pas
 | 10.3.2  |          |       |           |          |           |        |        |        |
 | 10.3.3  |          | y     |           |          |           |        |        |        |
 
+## )
 
 
 
