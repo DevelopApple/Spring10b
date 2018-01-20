@@ -11,7 +11,7 @@ Made from off the shelf parts and shared research the jailbreak community!
 
 ## notes
 
-Spawns a dropbear SSH server listening on port 2222. Remember to change your passwords!
+SSH server on port 2222. Remember to change your passwords!
 
 | user   | password |
 | ---    | ---      |
