@@ -19,14 +19,14 @@ SSH server on port 2222. Remember to change your passwords!
 | mobile | alpine   |
 
 
-## supported devices (working?)
+## supported devices (working?) 
 
-| iOS     | iPod 6G | iPhone 5S | 6   | 6+  | SE  | 6S  | 6S+ |
-| ---     | ---     | ---       | --- | --- | --- | --- | --- |
-| 10.3    |         |           | y   |     | y   |     |     |
-| 10.3.1  | y       | y         | y   | y   | y   | y   | y   |
-| 10.3.2  |         | y         | y   | y   |     | y   | y   |
-| 10.3.3  |         | y         | y   | y   | y   | y   | y   |
+| iOS     | iPod 6G | iPhone 5S | 6   | 6+  | SE  | 6S  | 6S+ | build number |
+| ---     | ---     | ---       | --- | --- | --- | --- | --- | ------------ |
+| 10.3    |         |           | y   |     | y   |     |     | 14E277       |
+| 10.3.1  | y       | y         | y   | y   | y   | y   | y   | 14E304       |
+| 10.3.2  |         | y         | y   | y   |     | y   | y   | 14F89        |
+| 10.3.3  |         | y         | y   | y   | y   | y   | y   | 14G60        |
 
 ##  
 
