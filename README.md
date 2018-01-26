@@ -24,8 +24,8 @@ SSH server on port 2222. Remember to change your passwords!
 | iOS     | iPod 6G | iPhone 5S         | 6           | 6+  | SE          | 6S          | 6S+ | build number |
 | ---     | ---     | ---               | ----------- | --- | ---         | ---         | --- | ------------ |
 | 10.3    |         |                   | iPhone7,2   |     | iPhone8,4   |             |     | 14E277       |
-| 10.3.1  | y       | iPhone6,2 iPhone6,1| iPhone7,2   | iPhone7,1   | iPhone8,4   | iPhone8,1   | iPhone8,2   | 14E304       |
-| 10.3.2  |         | iPhone6,2         | iPhone7,2   | iPhone7,1   |             | iPhone8,1   | iPhone8,2   | 14F89        |
+| 10.3.1  | y       | iPhone6,2 iPhone6,1| iPhone7,2  | iPhone7,1 |iPhone8,4 | iPhone8,1   | iPhone8,2   | 14E304 |
+| 10.3.2  |         | iPhone6,2         | iPhone7,2   | iPhone7,1 |          | iPhone8,1   | iPhone8,2   | 14F89        |
 | 10.3.3  |         | iPhone6,2         | iPhone7,2   | iPhone7,1   | iPhone8,4   | iPhone8,1   | iPhone8,2   | 14G60        |
 
 ##  
