@@ -9,7 +9,7 @@ Made from off the shelf parts and shared research the jailbreak community!
 
 
 
-## notes
+## Notes
 
 SSH server on port 2222. Remember to change your passwords!
 
@@ -19,7 +19,7 @@ SSH server on port 2222. Remember to change your passwords!
 | mobile | alpine   |
 
 
-## supported devices (working?) 
+## Spring10 v1.0.2 Supported Devices  
 
 | iOS     | iPod 6G | iPhone 5S         | 6           | 6+  | SE          | 6S          | 6S+ | build number |
 | ---     | ---     | ---               | ----------- | --- | ---         | ---         | --- | ------------ |
